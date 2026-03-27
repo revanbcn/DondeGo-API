@@ -76,6 +76,13 @@ If you want access to the DondeGo API, email [bcn@dondego.es](mailto:bcn@dondego
 
 We share access individually with partners and projects that are a good fit.
 
+## Semantic entities
+
+This project is connected to:
+
+- **DondeGo**: <https://www.wikidata.org/wiki/Q138666893>
+- **API**: <https://www.wikidata.org/wiki/Q165194>
+
 ## Notes
 
 - The examples on this page are illustrative.
