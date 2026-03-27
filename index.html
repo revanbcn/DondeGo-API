@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API de DondeGo | Eventos y lugares de Barcelona y Madrid para desarrolladores</title>
+  <meta name="description" content="La API de DondeGo ofrece acceso a eventos y lugares de Barcelona y Madrid para desarrolladores, medios, apps, mapas y proyectos digitales.">
+  <link rel="canonical" href="https://dondego.es/pages/api/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="API de DondeGo">
+  <meta property="og:description" content="Eventos y lugares de Barcelona y Madrid para desarrolladores, medios y partners.">
+  <meta property="og:url" content="https://dondego.es/pages/api/">
+  <meta property="og:site_name" content="DondeGo">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="API de DondeGo">
+  <meta name="twitter:description" content="Acceso a eventos y lugares de Barcelona y Madrid para desarrolladores, medios y proyectos digitales.">
+
+  <style>
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: #1f2937;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    h1, h2, h3 {
+      color: #111827;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin: 0 0 18px;
+    }
+    h2 {
+      font-size: 1.55rem;
+      margin: 42px 0 14px;
+    }
+    h3 {
+      font-size: 1.1rem;
+      margin: 28px 0 10px;
+    }
+    p {
+      margin: 0 0 16px;
+      font-size: 1.04rem;
+    }
+    .lead {
+      font-size: 1.16rem;
+      color: #374151;
+    }
+    .box {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin: 22px 0;
+    }
+    .muted {
+      color: #4b5563;
+      font-size: 0.96rem;
+    }
+    pre {
+      background: #0f172a;
+      color: #e5e7eb;
+      padding: 16px;
+      border-radius: 12px;
+      overflow-x: auto;
+      font-size: 0.94rem;
+      line-height: 1.5;
+      margin: 12px 0 18px;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    a {
+      color: #dc2626;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .kicker {
+      display: inline-block;
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #b91c1c;
+      margin-bottom: 14px;
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "NewsMediaOrganization"],
+        "@id": "https://dondego.es/#publisher",
+        "name": "DondeGo",
+        "url": "https://dondego.es/",
+        "sameAs": [
+          "https://www.wikidata.org/wiki/Q138666893"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://dondego.es/#website",
+        "url": "https://dondego.es/",
+        "name": "DondeGo",
+        "publisher": {
+          "@id": "https://dondego.es/#publisher"
+        },
+        "inLanguage": "es-ES"
+      },
+      {
+        "@type": ["WebPage", "AboutPage"],
+        "@id": "https://dondego.es/pages/api/#webpage",
+        "url": "https://dondego.es/pages/api/",
+        "name": "API de DondeGo",
+        "isPartOf": {
+          "@id": "https://dondego.es/#website"
+        },
+        "about": [
+          {
+            "@id": "https://www.wikidata.org/wiki/Q138666893"
+          },
+          {
+            "@id": "https://www.wikidata.org/wiki/Q165194"
+          }
+        ],
+        "mainEntity": {
+          "@id": "https://dondego.es/pages/api/#article"
+        },
+        "publisher": {
+          "@id": "https://dondego.es/#publisher"
+        },
+        "inLanguage": "es-ES"
+      },
+      {
+        "@type": "TechArticle",
+        "@id": "https://dondego.es/pages/api/#article",
+        "headline": "API de DondeGo",
+        "description": "Acceso a eventos y lugares de Barcelona y Madrid para desarrolladores, medios, apps, mapas y proyectos digitales.",
+        "url": "https://dondego.es/pages/api/",
+        "about": [
+          {
+            "@type": "Thing",
+            "@id": "https://www.wikidata.org/wiki/Q138666893",
+            "name": "DondeGo",
+            "sameAs": "https://www.wikidata.org/wiki/Q138666893"
+          },
+          {
+            "@type": "Thing",
+            "@id": "https://www.wikidata.org/wiki/Q165194",
+            "name": "API",
+            "sameAs": "https://www.wikidata.org/wiki/Q165194"
+          }
+        ],
+        "publisher": {
+          "@id": "https://dondego.es/#publisher"
+        },
+        "isPartOf": {
+          "@id": "https://dondego.es/pages/api/#webpage"
+        },
+        "inLanguage": "es-ES"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <main class="wrap">
+    <span class="kicker">Developers</span>
+    <h1>API de DondeGo</h1>
+
+    <p class="lead">
+      La API de DondeGo da acceso a una base de eventos y lugares de
+      <a href="https://dondego.es/barcelona/">Barcelona</a> y
+      <a href="https://dondego.es/madrid/">Madrid</a> para desarrolladores,
+      medios, mapas, apps urbanas, productos editoriales y partners.
+    </p>
+
+    <p>
+      En DondeGo trabajamos con contenido local pensado para la vida real de la ciudad.
+      Publicamos conciertos, exposiciones, teatro, festivales, ferias, actividades para niños,
+      planes de temporada y propuestas urbanas que ayudan a responder una pregunta muy simple:
+      qué hacer hoy y qué está pasando ahora mismo.
+    </p>
+
+    <p>
+      La API nace para que ese contenido pueda reutilizarse de forma estructurada en proyectos externos.
+      Sirve tanto para construir una agenda local como para enriquecer un mapa, un buscador,
+      una app móvil, una newsletter, un recomendador o una integración editorial.
+    </p>
+
+    <div class="box">
+      <p><strong>Acceso a la API</strong></p>
+      <p>
+        Si quieres usar la API de DondeGo, escríbenos a
+        <a href="mailto:bcn@dondego.es">bcn@dondego.es</a>.
+        Revisamos cada solicitud de forma individual y compartimos acceso con proyectos y colaboradores interesados.
+      </p>
+    </div>
+
+    <h2>Qué puedes consultar</h2>
+
+    <p>
+      La API está pensada para trabajar con dos grandes bloques de información:
+      eventos y lugares.
+    </p>
+
+    <p>
+      En la parte de eventos puedes consultar contenido por ciudad, fecha, categoría,
+      proximidad geográfica o combinaciones de filtros.
+      En la parte de lugares puedes obtener recintos, espacios culturales, puntos de interés
+      y sitios cercanos a unas coordenadas concretas.
+    </p>
+
+    <h2>Casos de uso habituales</h2>
+
+    <h3>Eventos de hoy en Madrid</h3>
+    <p>
+      Un caso básico es pedir los eventos del día en Madrid, igual que en la vista pública de
+      <a href="https://dondego.es/madrid/eventos/?date=hoy">eventos de hoy en Madrid</a>.
+    </p>
+
+    <pre><code>GET /api/v1/events/?location=madrid&amp;date=hoy</code></pre>
+
+    <h3>Eventos cerca de un punto del mapa</h3>
+    <p>
+      Si tu producto necesita mostrar planes próximos a la ubicación del usuario,
+      puedes consultar eventos dentro de un radio concreto a partir de unas coordenadas.
+    </p>
+
+    <pre><code>GET /api/v1/events/?lat=40.4168&amp;lon=-3.7038&amp;radius=3000&amp;date=hoy</code></pre>
+
+    <p class="muted">
+      Ejemplo orientativo: eventos de hoy en un radio de 3 km alrededor del centro de Madrid.
+    </p>
+
+    <h3>Lugares en un radio determinado</h3>
+    <p>
+      También puedes obtener lugares cercanos, por ejemplo espacios culturales,
+      salas, museos o puntos destacados dentro de una zona concreta.
+    </p>
+
+    <pre><code>GET /api/v1/places/?lat=41.3874&amp;lon=2.1686&amp;radius=2000</code></pre>
+
+    <p class="muted">
+      Ejemplo orientativo: lugares en un radio de 2 km alrededor del centro de Barcelona.
+    </p>
+
+    <h3>Filtrado por ciudad y categoría</h3>
+    <p>
+      Otro uso típico es combinar ciudad, fecha y categoría para construir listados específicos.
+    </p>
+
+    <pre><code>GET /api/v1/events/?location=barcelona&amp;category=exposiciones&amp;date=hoy</code></pre>
+
+    <h2>Para quién está pensada</h2>
+
+    <p>
+      La API de DondeGo puede ser útil para medios, apps de ocio, guías urbanas,
+      mapas interactivos, newsletters locales, asistentes, productos de recomendación
+      y cualquier proyecto que quiera trabajar con datos útiles sobre planes y lugares en la ciudad.
+    </p>
+
+    <p>
+      También es una buena base para equipos que necesitan una capa local bien estructurada
+      sobre <a href="https://dondego.es/barcelona/">Barcelona</a> y
+      <a href="https://dondego.es/madrid/">Madrid</a> sin tener que construir ese dataset desde cero.
+    </p>
+
+    <h2>Una API pensada para producto</h2>
+
+    <p>
+      No queríamos publicar solo una base de datos.
+      Queríamos ofrecer una capa reutilizable de contenido local con sentido editorial,
+      útil para interfaces reales y fácil de integrar en productos digitales.
+    </p>
+
+    <p>
+      Por eso la API de DondeGo está orientada a consultas que suelen tener valor inmediato:
+      qué hacer hoy, qué hay cerca de aquí, qué lugares entran en esta zona,
+      qué eventos pertenecen a una categoría o qué contenido puede alimentar una agenda local.
+    </p>
+
+    <h2>Contacto</h2>
+
+    <p>
+      Si quieres acceder a la API, conocer la documentación o comentar tu caso de uso,
+      escríbenos a <a href="mailto:bcn@dondego.es">bcn@dondego.es</a>.
+    </p>
+
+    <p class="muted">
+      Los ejemplos mostrados en esta página son ilustrativos. Los endpoints, parámetros y formato final
+      de acceso pueden variar según la versión o la configuración compartida con cada partner.
+    </p>
+  </main>
+</body>
+</html>
