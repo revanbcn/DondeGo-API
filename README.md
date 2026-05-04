@@ -1,3 +1,12 @@
+## First real use case
+
+The first live use case of the DondeGo API powers daily event selections for:
+
+- Barcelona: https://x.com/HoyBcn
+- Madrid: https://x.com/EnMadridHoy
+
+If you are building a project around events, culture, maps, newsletters or local discovery in Barcelona or Madrid, we can share the data for free. Please link back to DondeGo as the source.
+
 # DondeGo API
 
 Local events and places for Barcelona and Madrid.
